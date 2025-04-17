@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Position CSS</title>
+</head>
+<body>
+    <table width="60%" align="center">
+        <tr>
+            <td>
+                <p>This is paragraph without position</p>
+                <p class="p_static">This is paragraph with <b>static</b> position</p>
+                <p>This is paragraph without position</p>
+                <p class="p_relative">This is paragraph with <b>relative</b> position with top 100px and right 50px</p>
+                <p>This is paragraph without position</p>
+                <p class="p_absolute">This is paragraph with <b>absolute</b> position: bottom 50px and left 50%</p>
+
+                <table class="parent">
+                    <tr>
+                        <td>
+                            <p class="p_absolute p_with_parent">This is paragraph with <b>absolute</b> position: bottom 50px and left 50%</p>
+                        </td>
+                    </tr>
+                </table>
+                <p>This is paragraph without position</p>
+                <p class="p_fixed">This is paragraph with <b>fixed</b> position: bottom 50px</p>
+                <p>This is paragraph without position</p>
+                <p class="p_sticky">This is paragraph with <b>sticky</b> position: bottom 50px and left 50%</p>
+                <br>
+                <img src="../img/css.png">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
