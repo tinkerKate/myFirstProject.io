@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Улюблений фільм</title>
+    <style>
+        input:focus {
+            background-color: lightblue;
+            color: blueviolet;
+        }
+
+        select:focus {
+            background-color: plum;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <table align="center" width="60%">
+        <tr>
+            <td>
+            <form>
+                <label for="fullname">Ваше ім'я:</label>
+                <p><input name="fullname" type="text" id="fullname" placeholder="Введіть ваше ім'я" required></p>
+                
+                <label for="pass">Пароль:</label>
+                <p><input name="pass" type="password" id="pass"></p>
+
+                <p><label for="age">Ваш вік:</label></p>
+                <p><input name="age" type="number" id="age" min="18" max="100" placeholder="Вік"></p>
+
+                <label for="pol_f">Стать:</label>
+                <p><input name="pol" type="radio" value="F" id="pol_f" checked> Жінка</p>
+                <p><input name="pol" type="radio" value="M" id="pol_m"> Чоловік</p>
+                
+                <label for="favorite1">Ваш улюблений фільм:</label>
+                <p><input name="favorite" type="checkbox" value="Пригоди Паддінгтона в Перу" id="favorite1"> Пригоди Паддінгтона в Перу</p>
+                <p><input name="favorite" type="checkbox" value="Електричний штат" id="favorite2"> Електричний штат</p>
+                <p><input name="favorite" type="checkbox" value="Ущелина" id="favorite3"> Ущелина</p>
+
+                <p><label for="movie">Виберіть улюблений фільм:</label></p>
+                <p>
+                    <select name="movie" id="movie">
+                        <option value="Paddington">Пригоди Паддінгтона в Перу</option>
+                        <option value="ElectricState">Електричний штат</option>
+                        <option value="TheGorge">Ущелина</option>
+                    </select>
+                </p>
+                <p><input type="submit" value="Відпpавити"></p>
+            </form> 
+            <button><a href="index.html" style="text-decoration: none;">Назад</a></button>    
+            </td>
+            <td>
+                <img src="img/cat.gif" >
+            </td>
+        </tr>
+    </table>
+   
+</body>
+</html>

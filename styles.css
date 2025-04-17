@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to bottom right, blue, pink);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+
+h1 {
+    text-align: center;
+    color: navy;
+    margin-bottom: 60px;
+}
+
+h1::after {
+    content: "✨";
+}
+
+h1::before {
+    content: "✨";
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(244, 159, 244, 0.4); 
+    border: 1px solid #eecef5;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 70%;
+}
+
+table table {
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007acc;
+    color: white;
+}
+
+td {
+    background-color: rgba(173, 216, 230, 0.7); 
+}
+
+.page {
+    padding: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+img:hover{
+    border-radius: 50%;
+}
+img:active{
+    height: 500px;
+}
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #e94e3c;
+}
+
+button:active {
+    background-color: aqua;
+}
+
+a {
+    font-weight: bold;
+    color: darkblue;
+}
+
+a:hover{
+    color:#eecef5
+}
